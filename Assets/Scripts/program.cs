@@ -45,6 +45,11 @@ public class program : MonoBehaviour {
 
         if (!sorted && clicked)
             OnClickSort();
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnSliderMoved();
+        }
     }
 
     public void OnClickSort() {        
